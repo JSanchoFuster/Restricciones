@@ -127,7 +127,7 @@ public class Formulario extends javax.swing.JFrame {
         Pattern p1 = Pattern.compile("[0-9]{4,8}[A-Z Ñ]");
         Pattern p2 = Pattern.compile("[a-z ñ A-Z Ñ]+");
         Pattern p3 = Pattern.compile("[a-z ñ A-Z Ñ]+");
-        Pattern p4 = Pattern.compile("[A-Z Ñ a-z ñ 0-9]+@[A-Z Ñ a-z ñ 0-9]+.[a-z ñ 0-9]{2,3}");
+        Pattern p4 = Pattern.compile("[A-Z Ñ a-z ñ 0-9]+@[A-Z Ñ a-z ñ 0-9]+[.][a-z ñ]{2,3}");
         Pattern p5 = Pattern.compile("[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}");
         
         Matcher j1 = p1.matcher(jTextFieldDNI.getText());
